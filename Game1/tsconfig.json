@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "typeRoots": ["./node_modules/@types"],
+        "types": [],
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+        "lib": ["dom", "es6", "dom.iterable", "scripthost"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+} 
